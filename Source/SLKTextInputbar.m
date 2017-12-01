@@ -82,7 +82,9 @@ NSString * const SLKTextInputbarDidMoveNotification =   @"SLKTextInputbarDidMove
     
     self.autoHideRightButton = YES;
     self.editorContentViewHeight = 38.0;
-    self.contentInset = UIEdgeInsetsMake(5.0, 8.0, 5.0, 8.0);
+    self.contentInset = UIEdgeInsetsMake(5.0, 8.0, 44.0, 8.0);
+    
+    self.barStyle = UIBarStyleBlack;
 
     // Since iOS 11, it is required to call -layoutSubviews before adding custom subviews
     // so private UIToolbar subviews don't interfere on the touch hierarchy

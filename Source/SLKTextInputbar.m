@@ -331,6 +331,8 @@ NSString * const SLKTextInputbarDidMoveNotification =   @"SLKTextInputbarDidMove
         height += self.editorContentViewHeight;
     }
     
+    height += 44;
+    
     return roundf(height);
 }
 

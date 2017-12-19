@@ -730,7 +730,7 @@ NSString * const SLKTextInputbarDidMoveNotification =   @"SLKTextInputbarDidMove
         CGFloat rightVerBottomMargin = rightVerMargin + self.slk_contentViewHeight;
         
         //self.rightButtonTopMarginC.constant = rightVerMargin;
-        self.rightButtonBottomMarginC.constant = rightVerBottomMargin + 16;
+        self.rightButtonBottomMarginC.constant = rightVerBottomMargin;
     }
 }
 
